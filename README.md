@@ -23,7 +23,7 @@ A responsive one-page business website built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-(Add your Vercel URL here)
+(https://north-peak-digital-z8zs-2yh1ldxy1-aashi-0627s-projects.vercel.app/)
 
 ## GitHub Repository
 
