@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NorthPeak Digital</title>
+    <title>NorthPeak Digital | Digital Agency</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <meta name="description" content="NorthPeak Digital is a modern digital agency offering web development, UI/UX design, SEO, digital marketing, cloud solutions, and cybersecurity services.">
+
+<meta name="theme-color" content="#6366f1">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -20,6 +27,8 @@
 <body>
 
     <!-- Website Starts Here -->
+
+    <a href="#hero" class="skip-link">Skip to main content</a>
 
     <header>
     <nav class="navbar">
@@ -37,14 +46,14 @@
 
     </ul>
 
-    <div class="menu-btn">
-
-        <i class="fas fa-bars"></i>
-
-    </div>
+    <button class="menu-btn" aria-label="Toggle navigation menu">
+    <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
 
 </nav>
 </header>
+
+<main>
 <section id="hero" class="hero hidden">
 
     <div class="hero-content">
@@ -71,37 +80,37 @@
     <div class="services-container">
 
         <div class="service-card">
-            <i class="fas fa-code"></i>
+            <i class="fas fa-code" aria-hidden="true"></i>
             <h3>Web Development</h3>
             <p>Custom responsive websites.</p>
         </div>
 
         <div class="service-card">
-            <i class="fas fa-palette"></i>
+            <i class="fas fa-palette" aria-hidden="true"></i>
             <h3>UI/UX Design</h3>
             <p>Modern user experiences.</p>
         </div>
 
         <div class="service-card">
-            <i class="fas fa-chart-line"></i>
+            <i class="fas fa-chart-line" aria-hidden="true"></i>
             <h3>SEO</h3>
             <p>Improve search rankings.</p>
         </div>
 
         <div class="service-card">
-            <i class="fas fa-bullhorn"></i>
+            <i class="fas fa-bullhorn" aria-hidden="true"></i>
             <h3>Digital Marketing</h3>
             <p>Reach more customers.</p>
         </div>
 
         <div class="service-card">
-            <i class="fas fa-cloud"></i>
+            <i class="fas fa-cloud" aria-hidden="true"></i>
             <h3>Cloud Solutions</h3>
             <p>Secure cloud services.</p>
         </div>
 
         <div class="service-card">
-            <i class="fas fa-shield-alt"></i>
+            <i class="fas fa-shield-alt" aria-hidden="true"></i>
             <h3>Cyber Security</h3>
             <p>Protect your business.</p>
         </div>
@@ -116,19 +125,22 @@
     <div class="testimonial-container">
 
         <div class="testimonial">
-            <i class="fas fa-star"></i>
+            <button class="menu-btn" aria-label="Open navigation menu">
+    <i class="fas fa-bars"></i>
+</button>
             <p>"Amazing service and professional team!"</p>
             <h4>- Rahul Sharma</h4>
         </div>
 
         <div class="testimonial">
-            <i class="fas fa-star"></i>
+            <button class="menu-btn" aria-label="Open navigation menu">
+    <i class="fas fa-bars"></i>
+</button>
             <p>"Our sales increased after the new website."</p>
             <h4>- Priya Verma</h4>
         </div>
 
         <div class="testimonial">
-            <i class="fas fa-star"></i>
             <p>"Highly recommended for startups."</p>
             <h4>- Aman Singh</h4>
         </div>
@@ -170,12 +182,16 @@
 
     <form id="contactForm">
 
+        <label for="name">Your Name</label>
+
         <input
             type="text"
             id="name"
             placeholder="Your Name"
             required>
         <span class="error-msg" id="nameError"></span>
+
+        <label for="email">Your Email</label>
 
         <input
             type="email"
@@ -184,12 +200,16 @@
             required>
         <span class="error-msg" id="emailError"></span>
 
+        <label for="phone">Phone Number</label>
+
         <input
             type="tel"
             id="phone"
             placeholder="Phone Number"
             required>
         <span class="error-msg" id="phoneError"></span>
+
+        <label for="message">Your Message</label>
 
         <textarea
             id="message"
@@ -204,6 +224,7 @@
     </form>
 
 </section>
+</main>
 
 <footer>
 
@@ -215,11 +236,21 @@ Built for Digital Heroes Training Task
 
 <div class="social-icons">
 
-<a href="#"><i class="fab fa-linkedin"></i></a>
+<a
+href="www.linkedin.com/in"
+aria-label="Linkdeln Profile">
 
-<a href="#"><i class="fab fa-github"></i></a>
+<i class="fab fa-Linkdeln" aria-hidden="true"></i>
 
-<a href="#"><i class="fab fa-twitter"></i></a>
+</a>
+<a
+href="https://github.com"
+aria-label="GitHub Profile">
+
+<i class="fab fa-github" aria-hidden="true"></i>
+
+</a>
+<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
 
 </div>
 
