@@ -23,10 +23,10 @@ A responsive one-page business website built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-(Add your Vercel URL here)
+(https://north-peak-digital-z8zs-2yh1ldxy1-aashi-0627s-projects.vercel.app/)
 
 ## GitHub Repository
 
-(Add your GitHub URL here)
+(https://github.com/Aashi-0627/NorthPeak-Digital)
 
 Built for Digital Heroes Training Task.
