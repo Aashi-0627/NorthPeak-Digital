@@ -138,7 +138,12 @@ header{
 
     text-align:center;
 
-    background:linear-gradient(135deg,var(--color-primary),var(--color-primary-dark));
+    background:
+linear-gradient(rgba(37,99,235,.8),rgba(29,78,216,.9)),
+url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
 
     color:white;
 
@@ -192,6 +197,24 @@ header{
 
 }
 
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-secondary{
+    background:transparent;
+    border:2px solid white;
+    color:white;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:var(--color-primary);
+}
+
 /* Service */
 #services{
 
@@ -238,9 +261,8 @@ header{
 }
 
 .service-card:hover{
-
     transform:translateY(-10px);
-
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
 
 /* Testimonials */
@@ -434,6 +456,29 @@ footer{
 footer a{
 
     color:#60a5fa;
+
+}
+.social-icons{
+
+margin:20px 0;
+
+}
+
+.social-icons a{
+
+font-size:24px;
+
+margin:0 15px;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.social-icons a:hover{
+
+color:#60a5fa;
 
 }
 

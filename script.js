@@ -1,3 +1,5 @@
+const form = document.getElementById("contactForm");
+
 // Contact Form Validation
 
 form.addEventListener("submit", function (e) {
