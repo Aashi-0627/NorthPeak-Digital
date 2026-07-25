@@ -27,6 +27,6 @@ A responsive one-page business website built using HTML, CSS, and JavaScript.
 
 ## GitHub Repository
 
-(Add your GitHub URL here)
+(https://github.com/Aashi-0627/NorthPeak-Digital)
 
 Built for Digital Heroes Training Task.
